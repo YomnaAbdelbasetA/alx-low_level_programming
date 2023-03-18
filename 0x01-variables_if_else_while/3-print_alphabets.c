@@ -8,12 +8,12 @@ int main(void)
 	int lowercase = 97;
 	int uppercase = 65;
 
-	while (lowercase <= lowercase + 26)
+	while (lowercase <= 122)
 	{
 		putchar((char)lowercase);
 		lowercase++;
 	}
-	while (uppercase <= uppercase + 26)
+	while (uppercase <= 90)
 	{
 		putchar((char)uppercase);
 		uppercase++;
