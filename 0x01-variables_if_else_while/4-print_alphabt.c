@@ -9,7 +9,7 @@ int main(void)
 
 	while (lowercase <= 122)
 	{
-		if (lowercase != 113 || lowercase != 101)
+		if (lowercase != 113 && lowercase != 101)
 		{
 		putchar((char)lowercase);
 		}
