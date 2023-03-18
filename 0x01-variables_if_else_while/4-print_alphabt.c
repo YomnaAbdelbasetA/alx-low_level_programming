@@ -7,7 +7,7 @@ int main(void)
 {
 	int lowercase = 97;
 
-	while (lowercase <= 122 && (lowercase != 113 || lowecase != 101))
+	while (lowercase <= 122 && (lowercase != 113 || lowercase != 101))
 	{
 		putchar((char)lowercase);
 		lowercase++;
