@@ -15,13 +15,13 @@ void times_table(void)
 			if (res > 9)
 			{
 				x = res % 10;
-				y = res / 1;
+				y = (res / 1);
 				_putchar(',');
 				_putchar(' ');
 				_putchar(y + '0');
 				_putchar(x + '0');
 			}
-			else if (res <= 9 && i != 0)
+			else if (res <= 9 && i != 0 && j != 0)
 			{
 				_putchar(',');
 				_putchar(' ');
