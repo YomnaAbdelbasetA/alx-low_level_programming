@@ -28,10 +28,10 @@ void times_table(void)
 				_putchar(' ');
 				_putchar(res + '0');
 			}
-			else
-			 {
+			else if ( res == 0)
+			{
 				 _putchar(res + '0');
-			 }
+			}
 		}
 	_putchar('\n');
 	}
