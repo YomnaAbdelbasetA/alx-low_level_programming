@@ -1,10 +1,9 @@
-#include "main.h"
 #include <stdio.h>
 /**
- * natural - a function that computes the sum of 3 and 5 multiplies
+ * main - a program that computes the sum of 3 and 5 multiplies
  * Return: 0
  */
-void natural(void)
+int main(void)
 {
 	int i = 1, sum = 0;
 
@@ -16,4 +15,5 @@ void natural(void)
 		}
 	}
 	printf("%d\n", sum);
+	return (0);
 }
