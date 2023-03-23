@@ -5,8 +5,8 @@
  */
 int main(void)
 {
-	int x = 0, y = 1, i = 0;
-	long sum = 0;
+	int i = 0;
+	long x = 0, y = 1, sum = 0;
 
 	for (i = 0; i < 50; i++)
 	{
