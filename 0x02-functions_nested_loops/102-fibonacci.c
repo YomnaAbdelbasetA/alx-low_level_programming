@@ -13,11 +13,11 @@ int main(void)
 		sum = x + y;
 		if (i != 49)
 		{
-			printf("%d, ", sum);
+			printf("%l, ", sum);
 		}
 		else
 		{
-			printf("%d\n", sum);
+			printf("%l\n", sum);
 		}
 		x = y;
 		y = sum;
