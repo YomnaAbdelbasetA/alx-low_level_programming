@@ -6,7 +6,7 @@
 int main(void)
 {
 	int x = 0, y = 1, i = 0;
-	long int sum = 0;
+	long sum = 0;
 
 	for (i = 0; i < 50; i++)
 	{
