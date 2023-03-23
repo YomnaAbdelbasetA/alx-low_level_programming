@@ -6,18 +6,18 @@
 int main(void)
 {
 	int x = 0, y = 1, i = 0;
-	long long int sum = 0;
+	long int sum = 0;
 
 	for (i = 0; i < 50; i++)
 	{
 		sum = x + y;
 		if (i != 49)
 		{
-			printf("%l, ", sum);
+			printf("%ld, ", sum);
 		}
 		else
 		{
-			printf("%l\n", sum);
+			printf("%ld\n", sum);
 		}
 		x = y;
 		y = sum;
