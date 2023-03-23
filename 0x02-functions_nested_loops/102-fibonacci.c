@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-	int x = 0, y = 1, sum = 0, i = 0;
+	int x = 0, y = 1, i = 0;
+	long long int sum = 0;
 
-	printf("%d, %d", x, y);
 	for (i = 0; i < 50; i++)
 	{
 		sum = x + y;
