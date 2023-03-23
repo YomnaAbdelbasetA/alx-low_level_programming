@@ -18,5 +18,6 @@ int main(void)
 		x = y;
 		y = fib_sum;
 	}
+	printf("%ld\n", even_sum);
 	return (0);
 }
