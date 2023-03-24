@@ -3,7 +3,7 @@
  * main - Testing negative or positive function
  * Return: 0
  */
-int mani(void)
+int main(void)
 {
 	int i;
 
