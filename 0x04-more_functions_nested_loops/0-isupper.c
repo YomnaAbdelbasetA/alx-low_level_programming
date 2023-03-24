@@ -11,11 +11,8 @@ int _isupper(int c)
 
 	if (c >= 65 && c <= 98)
 	{
-		f = 1;
+		return (1);
 	}
-	else
-	{
-		f = 0;
-	}
-return (f);
+	return (0);
+
 }
