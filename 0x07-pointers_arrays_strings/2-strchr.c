@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 #include <stddef.h>
 /**
  * _strchr - a function that returns a pointer to the first occurrence of the
@@ -11,10 +10,12 @@
  */
 char *_strchr(char *s, char c)
 {
-	int sz, i = 0;
+	int sz = 0, i = 0;
 
-	for (sz = 0; s[sz] != '\0'; ++sz);
-
+	while (s[sz] != '\0')
+	{
+		sz++;
+	}
 	for (i = 0; i < sz; i++)
 	{
 		if (s[i] == c)
@@ -22,7 +23,8 @@ char *_strchr(char *s, char c)
 			break;
 		}
 	}
-	if(i != sz)
+
+	if (i != sz - 1)
 	{
 		return (s + i);
 	}
@@ -30,5 +32,4 @@ char *_strchr(char *s, char c)
 	{
 		return (NULL);
 	}
-	
 }
